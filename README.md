@@ -41,6 +41,6 @@ isso a função sleep() é chamada, que bloqueia o proceso que a chamou pela qua
 Quando o filho, executando inv.c chama sleep(), o pai é avisado e vê que o filho esta demorando, e usa kill() nele com o pid
 obtido anteriormente.
 
-Como o filho já tinha terminado a inversão, ele lê a palavra no pipe filh->pai e imprime na tela.
+Como o filho já tinha terminado a inversão, ele lê a palavra no pipe filho->pai e imprime na tela.
 
 Mais informações no código comentado.
