@@ -11,7 +11,7 @@ O pai então lê o pipe filho->pai e imprime na tela. E termina usando a funçã
 
 Mais informações no código comentado.
 
-======================================================================================================================
+================================================================================
 
 O arquivo process_comunication_execve.c implementa o mesmo problema, com a mesma função de inverter uma palavra.
 A diferença que dessa vez a parte que inverte a palavra está em outro código, contido no arquivo inv.c.
